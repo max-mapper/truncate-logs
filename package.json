@@ -1,0 +1,28 @@
+{
+  "name": "truncate-logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxogden/truncate-logs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/maxogden/truncate-logs/issues"
+  },
+  "homepage": "https://github.com/maxogden/truncate-logs#readme",
+  "dependencies": {
+    "pump": "^1.0.1",
+    "run-series": "^1.1.4",
+    "slice-file": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
