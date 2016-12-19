@@ -1,6 +1,6 @@
 {
   "name": "truncate-logs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI/JS module for truncating the beginning of a set of files easily",
   "main": "index.js",
   "scripts": {
