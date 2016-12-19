@@ -17,7 +17,14 @@ run-every 86400 truncate-logs --lines=5000 *.log
 ```js
 var truncate = require('truncate-logs')
 var opts = {lines: 500} // keep last 500 lines, default is 100000
+
+// you can specify an array of filenames
 truncate(['foo.txt', 'bar.txt'], opts, function (err) {
+
+})
+
+// or you can pass a string and it will be globbed
+truncate('*.log', opts, function (err) {
 
 })
 ```
